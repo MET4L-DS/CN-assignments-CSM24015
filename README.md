@@ -17,7 +17,7 @@ Subject: **Computer Networks Lab (CS520)**
 
 ### **Output:**
 
-![[Pasted image 20251218232352.png]]
+![[assignment1/Pasted image 20251218232352.png]]
 
 ---
 
