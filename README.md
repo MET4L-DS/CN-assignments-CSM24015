@@ -127,7 +127,7 @@ Message logs must be maintained in the server in a text file. Each client will s
 
 ### **Output:**
 
-![Pasted image 20251219015038.png](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment8/Pasted%20image%20251219203853.png)
+![Pasted image 20251219015038.png](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment8/Pasted%20image%2020251219203853.png)
 
 ---
 
