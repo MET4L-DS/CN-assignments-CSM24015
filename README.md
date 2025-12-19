@@ -1,223 +1,220 @@
 # CN-assignments-CSM24015
----
-Name: **Ayanshu Dev Sikdar**
-
-Roll no: **CSM24015**
-
-Programme: **MCA (3rd Semester)**
-
-Subject: **Computer Networks Lab (CS520)**
 
 ---
+
+**Name:** Ayanshu Dev Sikdar  
+**Roll no:** CSM24015  
+**Programme:** MCA (3rd Semester)  
+**Subject:** Computer Networks Lab (CS520)
+
+---
+
 ## Assignment 1
 
-### **Objective:** To gain first hands on experience of basic Socket Programming.
+### Objective
 
-### **Exercise:** Write a program to run TCP client and server socket programs where client first says “Hi” and in response server says “Hello”.
+To gain first hands-on experience of basic Socket Programming.
 
-### **Output:**
+### Exercise
 
-<img width="982" height="364" alt="Pasted image 20251218232352" src="https://github.com/user-attachments/assets/50166472-77a3-4fac-bd06-58da0a248c18" />
+Write a program to run TCP client and server socket programs where client first says **“Hi”** and in response server says **“Hello”**.
 
+### Output
+
+![Assignment 1 Output](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment1/Pasted%20image%2020251218232352.png)
 
 ---
 
 ## Assignment 2
 
-### **Objective:** To gain experience of TCP Socket Programming for simple applications.
+### Objective
 
-### **Exercise:** Write a program using TCP socket to implement the following: 
-1. Server maintains records of fruits in the format: fruit-name, quantity Last-sold, (server timestamp), 
-2. Multiple client purchase the fruits one at a time, 
-3. The fruit quantity is updated each time any fruit is sold, 
-4. Send regret message to a client if therequested quantityof the fruit is not available. 
-5. Display the customer ids <IP, port> who has done transactions already. This list should be updated in the server every time a transaction occurs. 
-6. The total number of unique customers who did some transaction will be displayed to the customer every time.
+To gain experience of TCP Socket Programming for simple applications.
 
-### **Output:**
+### Exercise
 
-![Pasted image 20251219000024.png](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment2/Pasted%20image%2020251219000024.png)
+1. Server maintains records of fruits
+    
+2. Multiple clients purchase fruits
+    
+3. Quantity updated after every sale
+    
+4. Regret message if quantity unavailable
+    
+5. Display customer IDs `<IP, Port>`
+    
+6. Display total unique customers
+    
+
+### Output
+
+![Assignment 2 Output](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment2/Pasted%20image%2020251219000024.png)
 
 ---
 
 ## Assignment 3
 
-### **Objective:** To gain experience of UDP Socket Programming for simple applications.
+### Objective
 
-### **Exercise:** Redo assignment 2 using UDP socket.
+To gain experience of UDP Socket Programming.
 
-### **Output:**
+### Exercise
 
-![[Pasted image 20251219000839.png]]
+Redo Assignment 2 using UDP socket.
+
+### Output
+
+![Assignment 3 Output](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment3/Pasted%20image%2020251219000839.png)
 
 ---
 
 ## Assignment 4
 
-### **Objective:** To gain knowledge of packet capturing tools and understand header structures.
+### Objective
 
-### **Exercise:** Install wireshark in a VM (Virtual Machine) environment. 
-Draw a time diagram to show the steps in the protocols recorded in the captured file (saved in the `.pcap` file of wireshark) during a PING operation. List the L2, L3, L4 header fields that can be extracted from the `.pcap` file.
+To gain knowledge of packet capturing tools.
 
-### **Output:**
+### Exercise
 
-![[Pasted image 20251219002227.png]]
+Install Wireshark and analyze PING packets.
 
-![[Pasted image 20251219002337.png]]
+### Output
 
-![[Pasted image 20251219002259.png]]
+![A4-1](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment4/Pasted%20image%2020251219002227.png)  
+![A4-2](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment4/Pasted%20image%2020251219002337.png)  
+![A4-3](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment4/Pasted%20image%2020251219002259.png)
 
 ---
 
 ## Assignment 5
 
-### **Objective:** To gain knowledge of more packet capturing tools.
+### Objective
 
-### **Exercise:** Learn and use maximum number of packet generation tools
+To gain knowledge of packet generation tools.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219005042.png]]
-
-![[Pasted image 20251219005155.png]]
-
-![[Pasted image 20251219005316.png]]
-
-![[Pasted image 20251219010921.png]]
+![A5-1](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment5/Pasted%20image%2020251219005042.png)  
+![A5-2](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment5/Pasted%20image%2020251219005155.png)  
+![A5-3](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment5/Pasted%20image%2020251219005316.png)  
+![A5-4](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment5/Pasted%20image%2020251219010921.png)
 
 ---
 
 ## Assignment 6
 
-### **Objective:** To gain knowledge of more TCP/IP C libraries.
+### Objective
 
-### **Exercise:** Develop a simple C based network simulator to analyze TCP traffic.
+To gain knowledge of TCP/IP C libraries.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219012616.png]]
+![Assignment 6 Output](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment6/Pasted%20image%2020251219012616.png)
 
 ---
 
 ## Assignment 7
 
-### **Objective:** Client server communication with UDP packets
+### Objective
 
-### **Exercise:** Write UDP client server socket program 
-where client sends one/two number(s) (integer or floating point) to server and a scientific calculator operation (like sin,cos,\*,/, inv etc.) and server responds with the result after evaluating the value of operation as sent by the client. Server will maintain a scientific calculator. Detect in the mininet hosts with wireshark if there is any packet loss? Show it to the TA.
+UDP client-server scientific calculator.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219013908.png]]
+![Assignment 7 Output](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment7/Pasted%20image%2020251219013908.png)
 
 ---
 
 ## Assignment 8
 
-### **Objective:** Using Thread library and TCP sockets.
+### Objective
 
-### **Exercise:** Write a program in C using thread library and TCP sockets to build a chat server which enable clients communicating to each other through the chat server. 
-Message logs must be maintained in the server in a text file. Each client will see the conversations in real time. Clients must handled by a server thread. (Keep it like a group chatbox)
+Multithreaded TCP chat server.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219015038.png]]
+![Assignment 8 Output](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment8/Pasted%20image%2020251219015038.png)
 
 ---
 
 ## Assignment 9
 
-### **Objective:** File upload and download using TCP.
+### Objective
 
-### **Exercise:** Write a client server socket program in TCP for uploading and downloading files between two different hosts. Also calculate the transfer time in both the cases.
+File upload and download using TCP.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219020536.png]]
-
-![[Pasted image 20251219021350.png]]
+![A9-1](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment9/Pasted%20image%2020251219020536.png)  
+![A9-2](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment9/Pasted%20image%2020251219021350.png)
 
 ---
 
 ## Assignment 10
 
-### **Objective:** Using RAW sockets to generate packets.
+### Objective
 
-### **Exercise:** Write two C programs using raw socket to send 
-1. TCP packet where TCP payload will contain your roll number. 
-2. ICMP time stamp messages towards a target IP.
+RAW socket packet generation.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219023641.png]]
-
-![[Pasted image 20251219023702.png]]
-
-![[Pasted image 20251219023855.png]]
-
-![[Pasted image 20251219024038.png]]
+![A10-1](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment10/Pasted%20image%2020251219023641.png)  
+![A10-2](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment10/Pasted%20image%2020251219023702.png)  
+![A10-3](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment10/Pasted%20image%2020251219023855.png)  
+![A10-4](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment10/Pasted%20image%2020251219024038.png)
 
 ---
 
 ## Assignment 11
 
-### **Objective:** Using RAW sockets to generate TCP flooding attack.
+### Objective
 
-### **Exercise:** Write a RAW socket program to generate TCP SYN flood based DDoS attack towards an IP address. Take four mininet hosts as agent devices.
+TCP SYN Flood attack using RAW sockets.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219030401.png]]
-
-![[Pasted image 20251219030114.png]]
+![A11-1](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment11/Pasted%20image%2020251219030401.png)  
+![A11-2](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment11/Pasted%20image%2020251219030114.png)
 
 ---
 
 ## Assignment 12
 
-### **Objective:** Using RAW sockets to generate ICMP flooding attack.
+### Objective
 
-### **Exercise:** Do the same attack as given in assignment no. 11 with ICMP packets using RAW socket.
+ICMP Flood attack using RAW sockets.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219031313.png]]
-
-![[Pasted image 20251219031133.png]]
-
-![[Pasted image 20251219031215.png]]
+![A12-1](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment12/Pasted%20image%2020251219031313.png)  
+![A12-2](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment12/Pasted%20image%2020251219031133.png)  
+![A12-3](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment12/Pasted%20image%2020251219031215.png)
 
 ---
 
 ## Assignment 13
 
-### **Objective:** To learn packet capturing and analysis.
+### Objective
 
-### **Exercise:** Create a binary tree topology with 7 switches in mininet. Capture packets at the root switch.
-Write a C program to extract the headers and draw a time diagram to show the protocols displayed in the captured file (save the `.pcap`/`.pcapng` file of wireshark/tshark) during a PING operation. List the L2, L3, L4 protocols that can be extracted from the `.pcap`/`.pcapng` file.
+Packet capture and protocol analysis.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219034621.png]]
-
-![[Pasted image 20251219034416.png]]
-
-![[Pasted image 20251219034444.png]]
-
-![[Pasted image 20251219034055.png]]
-
-![[Pasted image 20251219034229.png]]
-
-![[Pasted image 20251219034931.png]]
+![A13-1](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment13/Pasted%20image%2020251219034621.png)  
+![A13-2](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment13/Pasted%20image%2020251219034416.png)  
+![A13-3](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment13/Pasted%20image%2020251219034444.png)  
+![A13-4](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment13/Pasted%20image%2020251219034055.png)  
+![A13-5](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment13/Pasted%20image%2020251219034229.png)  
+![A13-6](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment13/Pasted%20image%2020251219034931.png)
 
 ---
 
 ## Assignment 14
 
-### **Objective:** Creating customized topologies in mininet.
+### Objective
 
-### **Exercise:** Create a custom leaf-spine topology in mininet using python which can be scaled with increasing switch radix.
+Custom leaf-spine topology in Mininet.
 
-### **Output:**
+### Output
 
-![[Pasted image 20251219035405.png]]
+![Assignment 14 Output](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment14/Pasted%20image%2020251219035405.png)
