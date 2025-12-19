@@ -31,17 +31,11 @@ Subject: **Computer Networks Lab (CS520)**
 ### **Exercise:** Write a program using TCP socket to implement the following:
 
 1. Server maintains records of fruits in the format: fruit-name, quantity Last-sold, (server timestamp),
-    
 2. Multiple client purchase the fruits one at a time,
-    
 3. The fruit quantity is updated each time any fruit is sold,
-    
 4. Send regret message to a client if therequested quantityof the fruit is not available.
-    
 5. Display the customer ids <IP, port> who has done transactions already. This list should be updated in the server every time a transaction occurs.
-    
 6. The total number of unique customers who did some transaction will be displayed to the customer every time.
-    
 
 ### **Output:**
 
@@ -115,7 +109,7 @@ Draw a time diagram to show the steps in the protocols recorded in the captured 
 
 ### **Exercise:** Write UDP client server socket program
 
-where client sends one/two number(s) (integer or floating point) to server and a scientific calculator operation (like sin,cos,*,/, inv etc.) and server responds with the result after evaluating the value of operation as sent by the client. Server will maintain a scientific calculator. Detect in the mininet hosts with wireshark if there is any packet loss? Show it to the TA.
+where client sends one/two number(s) (integer or floating point) to server and a scientific calculator operation (like sin,cos,\*,/, inv etc.) and server responds with the result after evaluating the value of operation as sent by the client. Server will maintain a scientific calculator. Detect in the mininet hosts with wireshark if there is any packet loss? Show it to the TA.
 
 ### **Output:**
 
@@ -133,7 +127,7 @@ Message logs must be maintained in the server in a text file. Each client will s
 
 ### **Output:**
 
-![Pasted image 20251219015038.png](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment8/Pasted%20image%2020251219015038.png)
+![Pasted image 20251219015038.png](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment8/Pasted%20image%20251219203853.png)
 
 ---
 
@@ -158,9 +152,7 @@ Message logs must be maintained in the server in a text file. Each client will s
 ### **Exercise:** Write two C programs using raw socket to send
 
 1. TCP packet where TCP payload will contain your roll number.
-    
 2. ICMP time stamp messages towards a target IP.
-    
 
 ### **Output:**
 
