@@ -1,6 +1,6 @@
 # CN-assignments-CSM24015
 ---
-NAME: **Ayanshu Dev Sikdar**
+Name: **Ayanshu Dev Sikdar**
 
 Roll no: **CSM24015**
 
@@ -17,7 +17,8 @@ Subject: **Computer Networks Lab (CS520)**
 
 ### **Output:**
 
-![[assignment1/Pasted image 20251218232352.png]]
+<img width="982" height="364" alt="Pasted image 20251218232352" src="https://github.com/user-attachments/assets/50166472-77a3-4fac-bd06-58da0a248c18" />
+
 
 ---
 
