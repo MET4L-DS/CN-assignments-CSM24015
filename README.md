@@ -36,7 +36,7 @@ Subject: **Computer Networks Lab (CS520)**
 
 ### **Output:**
 
-![Pasted image 20251219000024.png]([assignment2/Pasted image 20251219000024.png](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment2/Pasted%20image%2020251219000024.png))
+![Pasted image 20251219000024.png](https://github.com/MET4L-DS/CN-assignments-CSM24015/blob/main/assignment2/Pasted%20image%2020251219000024.png)
 
 ---
 
